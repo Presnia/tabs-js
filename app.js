@@ -17,7 +17,6 @@ function onTabClick(item) {
 
         if (!currentBtn.classList.contains('active')) {
             getElements(tabsBtn);
-
             getElements(tabsItems);
 
         currentBtn.classList.add('active');
